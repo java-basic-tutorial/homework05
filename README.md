@@ -8,18 +8,18 @@ This homework contains only two tasks.
 
 In this task, you will use the standard and create the custom `exceptions.` 
 
-You need to improve the class [Account](/src/main/java/com/softserveinc/task01/Account.java) 
-in package [com.softserveinc.task01](/src/main/java/com/softserveinc/task01).
+You need to improve the class [Account](src/main/java/com/softserveinc/task01/Account.java) 
+in package [com.softserveinc.task01](src/main/java/com/softserveinc/task01).
 
-The class [Account](/src/main/java/com/softserveinc/task01/Account.java) contains two methods
+The class [Account](src/main/java/com/softserveinc/task01/Account.java) contains two methods
 `deposit()` and `withdraw()`. Both get as parameter amount of money.
 
 In the methods `deposit()` and `withdraw()` you need to check if amount is negative. If so you should
 throw the exception [IllegalArguemntException](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/IllegalArgumentException.html).
 
-Also, you should check the method `withdraw()`. If the amount is higher than the balance then throw the exception `NoManyEnoughException`.
+Also, you should check the method `withdraw()`. If the amount is higher than the balance then throw the exception `NotMoneyEnoughException`.
 
-You need create this exception in package [com.softserveinc.task01](/src/main/java/com/softserveinc/task01).
+You need create this exception in package [com.softserveinc.task01](src/main/java/com/softserveinc/task01).
 
 **Note: pay attention to the comments marked TODO:**
 
